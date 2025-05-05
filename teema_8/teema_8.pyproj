@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>cce4245e-b02c-4e7e-84f2-dc7450bf1a06</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>teema_8.py</StartupFile>
+    <StartupFile>ÜL.8.2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ÜL.8.2.py" />
+    <Compile Include="Ül.5.py" />
     <Compile Include="teema_8.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="rahvaarv.txt" />
+    <Content Include="maed.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
